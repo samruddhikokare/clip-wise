@@ -1,0 +1,67 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 60px 0;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-product img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.hero-product span {
+    font-weight: bold;
+}
+
+/* Products Section */
+.products-section {
+    background-color: #f4f4f4;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Special Offer Section */
+.special-offer-section {
+    background-color: #2575fc;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #ff5a5f;
+}
+
+.new-price {
+    font-size: 36px;
+    font-weight: bold;
+}
